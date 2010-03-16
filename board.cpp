@@ -1,4 +1,4 @@
-// Author: Eric Warburg
+// Author: schauerlich (edavidburgATgmail.com)
 
 #include <iostream>
 #include <iomanip>

@@ -1,4 +1,4 @@
-// Author: Eric Warburg
+// Author: schauerlich (edavidburgATgmail.com)
 
 #ifndef BOX_H
 #define BOX_H

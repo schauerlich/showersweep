@@ -1,4 +1,4 @@
-// Author: Eric Warburg
+// Author: schauerlich (edavidburgATgmail.com)
 
 #ifndef BOARD_H
 #define BOARD_H
