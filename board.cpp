@@ -189,15 +189,12 @@ bool Board::poke(short row, short col) {
   
   // if we're off the edge of the board
   if (!(row >= 0 && row < size && col >= 0 && col < size)) {
-    //cout << "off edge" << endl;
     return false;
   }
-  //cout << "Testing row: " << row << " col: " << col << endl;
-  //cout << "numNeighbors: " << grid[row][col]->getNumNeighbors() << endl;
+
   // if box is already visible, or it has neighbors
   if (grid[row][col]-> isVisible() || grid[row][col]->getNumNeighbors() != 0) {
     grid[row][col]->makeVisible();
-    //cout << "Has neighbors" << endl;
     return false;
   } // if
   
